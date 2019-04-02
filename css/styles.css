@@ -1,0 +1,17 @@
+body{
+    font-family: 'Ubuntu Mono', monospace;
+}
+#title {
+    background-color: hsl(34,100%,95%);
+}
+.nav-bg{
+    background-color: hsl(33,10%,21%); 
+}
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 5%;
+}
