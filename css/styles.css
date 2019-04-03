@@ -1,17 +1,95 @@
 body{
     font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
 }
 #title {
-    background-color: hsl(34,100%,95%);
+    background-color: #eeeeee;
+    color: #222831;
 }
-.nav-bg{
-    background-color: hsl(33,10%,21%); 
-}
+
 h1 {
     font-family: 'Patrick Hand', cursive;
-    font-size: 3rem;
-    line-height: 1.5;
+    font-size: 3.2rem;
+    line-height: 1.1; 
+    font-weight: bold;
+}
+h3{
+    font-family: 'Patrick Hand', cursive; 
+    font-size: 2.2rem;
+}
+p{
+    color: #393e46; 
 }
 .container-fluid{
     padding: 3% 5%;
+}
+
+a:hover {
+    color: #393e46;
+    text-decoration: none;
+} 
+
+/* Navbar */
+
+.logo{
+    font-size: 2.2rem;
+    color: #222831;
+    font-family: 'Ubuntu Mono', monospace;
+    /* text-transform: uppercase; */
+}
+
+.navbar{
+    padding: 0 0 3rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-l{
+    color: #222831;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-toggler{
+    background-color: #ffffffef;
+
+}
+
+/* button */
+
+.btn-bg{
+    background-color: #4d4b4b;
+    color: #f3f3f3;
+    margin: 5% 3% 5% 0;
+    font-size: 1.2rem;
+
+}
+.btn-bg:hover{
+    color: #fff;
+}
+
+/* Title IMG */
+.img-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    top: 25px;
+}
+
+/* Features */
+#features{
+    padding: 5% 15%;
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+.fa-feat{
+    color: #393e46;
+    margin-bottom: 1rem;
+}
+.fa-feat:hover{
+    color: #b55400;
+
 }
