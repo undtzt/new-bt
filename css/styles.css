@@ -13,6 +13,10 @@ h1 {
     line-height: 1.1; 
     font-weight: bold;
 }
+h2{
+    font-family: 'Patrick Hand', cursive;  
+    font-size: 3.2rem;
+}
 h3{
     font-family: 'Patrick Hand', cursive; 
     font-size: 2.2rem;
@@ -85,11 +89,38 @@ a:hover {
 text-align: center;
 padding: 5%;
 }
-.fa-feat{
+.icon-h{
     color: #393e46;
     margin-bottom: 1rem;
 }
-.fa-feat:hover{
+.icon-h:hover{
     color: #b55400;
 
 }
+
+/* testimonials */
+
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;  
+  margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #b55400;
+    text-align: center;
+    padding: 2%;
+
+}
+.press-img{
+    width: 20%;
+    margin: 0 2%;
+}
+
