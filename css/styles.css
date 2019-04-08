@@ -1,126 +1,189 @@
-body{
-    font-family: 'Ubuntu Mono', monospace;
+body {
+    font-family: 'Roboto';
     font-size: 1.5rem;
 }
+
 #title {
     background-color: #eeeeee;
     color: #222831;
 }
 
 h1 {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Anton';
     font-size: 3.2rem;
-    line-height: 1.1; 
+    line-height: 1.1;
     font-weight: bold;
 }
-h2{
-    font-family: 'Patrick Hand', cursive;  
+
+h2 {
+    font-family: 'Anton';
     font-size: 3.2rem;
 }
-h3{
-    font-family: 'Patrick Hand', cursive; 
+
+h3 {
+    font-family: 'Anton';
     font-size: 2.2rem;
 }
-p{
-    color: #393e46; 
+
+p {
+    color: #393e46;
 }
-.container-fluid{
-    padding: 3% 5%;
+
+.container-fluid {
+    padding: 3% 15% 7%;
 }
 
 a:hover {
     color: #393e46;
     text-decoration: none;
-} 
+}
 
 /* Navbar */
 
-.logo{
+.logo {
     font-size: 2.2rem;
     color: #222831;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Roboto';
     /* text-transform: uppercase; */
 }
 
-.navbar{
+.navbar {
     padding: 0 0 3rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
 }
-.nav-l{
+
+.nav-l {
     color: #222831;
     font-size: 1.5rem;
     font-weight: bold;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: #ffffffef;
 
 }
 
 /* button */
 
-.btn-bg{
+.btn-bg {
     background-color: #4d4b4b;
     color: #f3f3f3;
     margin: 5% 3% 5% 0;
     font-size: 1.2rem;
 
 }
-.btn-bg:hover{
+
+.btn-bg:hover {
     color: #fff;
 }
 
 /* Title IMG */
-.img-logo{
+.img-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    top: 25px;
+    width: 55%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+
 }
 
 /* Features */
-#features{
+#features {
     padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
-.feature-box{
-text-align: center;
-padding: 5%;
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
-.icon-h{
+
+.icon-h {
     color: #393e46;
     margin-bottom: 1rem;
 }
-.icon-h:hover{
+
+.icon-h:hover {
     color: #b55400;
 
 }
 
 /* testimonials */
 
-#testimonials{
-    padding: 5% 15%;
+#testimonials {
     text-align: center;
     background-color: #eeeeee;
 }
-.testimonials-image{
-  width: 10%;
-  border-radius: 100%;  
-  margin: 20px;
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
-/* Press */
 
-#press{
-    background-color: #b55400;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+#pricing {
+    padding: 50px;
     text-align: center;
-    padding: 2%;
-
-}
-.press-img{
-    width: 20%;
-    margin: 0 2%;
+    
 }
 
+.card-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 998px){
+
+    #title{
+        text-align: center;
+    }
+
+    .img-logo{
+        position: static;
+        transform: rotate(0);
+    }
+
+
+
+}
+
+#cta{
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 3% 2%;
+}
+.cta-title{
+    font-family: 'Anton';
+    font-size: 3rem;
+    color: #393e46;
+
+}
+.cta-h{
+    margin: 2% 1%;
+}
+#footer{
+    background-color: #b55400;
+}
+.f-color{
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+}
